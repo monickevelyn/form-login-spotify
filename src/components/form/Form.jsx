@@ -13,7 +13,7 @@ const Form = () => {
   const onSubmit = (data) => {
     const username = watch("user")
     console.log(data)      
-    alert(`bem-vinde, ${username}`)
+    alert(`bem-vindo, ${username}`)
   }
 
   return (
